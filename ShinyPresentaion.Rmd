@@ -1,0 +1,41 @@
+---
+title: "My Application"
+author: "Swan Htet Ye Yint"
+date: "9/24/2020"
+output: ioslides_presentation
+---
+
+##
+Introduction  
+
+This application is for designed to allow investors to calculate the potential rental yield of a property and estimate the cashflow of owning the property.
+
+
+##
+Application Overview  
+
+- The application is written in Shiny which is a web application framework for R
+- The source code consists of two files: server.R and ui.R
+- server.R includes the the server logic of a Shiny web application
+- ui.R includes the the user-interface definition, which uses the sidebarLayout template
+- The application is hosted on Rstudio's shiny server in the cloud (Shinyapps.io)  
+
+##
+Left pannel elements  
+
+-you can add the property price,expected weekly rent,weekly repayments,water and management fees  
+-you can enter them manually in numeric values.  
+
+##
+Main pannel elements  
+
+-In this pannel, it will show the calculated answer by using the numbers inputed by the user automically.  
+-It calculated Rental yield(%), Cashflow per Week and cashflow per Year.  
+_And it contains instruction of how to use the application and the concept behind.  
+
+
+Links to application and source code  
+
+source code link-"https://github.com/NgaMite/ShinyApp"  
+
+application link-"https://bomite.shinyapps.io/Simple_Shiny_App/"
